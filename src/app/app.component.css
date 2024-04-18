@@ -1,0 +1,20 @@
+.news-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .news-container .news-card {
+    width: 500px;
+    margin: 20px;
+    transition: 0.25s; }
+    .news-container .news-card:hover {
+      cursor: pointer;
+      background-color: rgba(0, 0, 0, 0.1); }
+    .news-container .news-card:active {
+      cursor: pointer;
+      background-color: rgba(0, 0, 0, 0.15); }
+
+.news-paginator {
+  position: sticky;
+  bottom: 0; }
+
+/*# sourceMappingURL=app.component.css.map */

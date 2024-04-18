@@ -1,0 +1,26 @@
+.news-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .news-card {
+    width: 500px;
+    margin: 20px;
+    transition: 0.25s;
+
+    &:hover {
+      cursor: pointer;
+      background-color: rgba(#000000, 0.1);
+    }
+
+    &:active {
+      cursor: pointer;
+      background-color: rgba(#000000, 0.15);
+    }
+  }
+}
+
+.news-paginator {
+  position: sticky;
+  bottom: 0;
+}
