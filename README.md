@@ -7,9 +7,12 @@ After cloning the project run `npm install` to install dependency
 
 ## Some notation
 
-I added pagination because running 500 requests in parallel is not good idea,
-Additionaly add lorem ipsum description and picture of dog for fill some space
+I added pagination because running 500 requests in parallel is not good idea.
+
+Additionaly add lorem ipsum description and picture of dog for fill some space.
+
 Also you can click on the news and go to source page.
+
 So that`s all, MVP is ready :)
 
 # Next descripton is default so you can not read it.
